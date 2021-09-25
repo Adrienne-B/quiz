@@ -1,10 +1,19 @@
 function check() {
-    var c+0;
+    document.write("You are done, Congradulations!");
+}
+
+    var c=0;
     var q1=document.quiz.question1.value;
     var q2=document.quiz.question2.value;
     var q3=document.quiz.question3.value;
     var q4=document.quiz.question4.value;
     var q5=document.quiz.question5.value;
+    var q6=document.quiz.question3.value;
+    var q7=document.quiz.question4.value;
+    var q8=document.quiz.question5.value;
+    var q9=document.quiz.question4.value;
+    var q10=document.quiz.question5.value;
+    var result=document.getElementById('result');
 
     if(q1=="Pennsylvania, Connecticut, S.Carolina, Maryland, New Jersey, Rhode Island, Massachusetts, New Hampshire, Delaware, Georgia, N.Carolina, Virginia, and New York.") {c++}
     if(q2=="A and C") {c++}
@@ -16,5 +25,7 @@ function check() {
     if(q8=="The awareness of women liberation and equality which started in the 1960s.") {c++}
     if(q9=="Because it represented freedom and strenght of America.") {c++}
     if(q10=="2") {c++}
+
+    result.textContent='$(c)';
  
 }

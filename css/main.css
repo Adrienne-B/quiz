@@ -1,0 +1,34 @@
+main {
+  margin-top: 11rem;  
+}
+
+.Summary {
+    display: flex;
+}
+
+h1 {
+    align-content: center;
+    justify-content: center;
+    margin-left: 19rem;
+    word-wrap: break-word;
+    width: 97%;
+}
+
+#sub p {
+    font-size: 1.3rem;
+    margin-top: -1rem;
+    margin-left: 11rem;
+    text-align: center;
+    word-wrap: break-word;
+    width: 67%;
+}
+
+#quiz {
+    padding-left: 8rem;
+}
+
+#button {
+    margin-left: 16rem;
+    margin-top: 6rem;
+    padding: 12px 43px;
+}
