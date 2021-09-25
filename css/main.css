@@ -32,3 +32,26 @@ h1 {
     margin-top: 6rem;
     padding: 12px 43px;
 }
+
+@media only screen and (min-width:1200px) {
+    /*Desktop styles here*/
+
+h1 {
+    margin-left: 26rem;
+    word-wrap: break-word;
+    width: 97%;
+ }
+
+ #sub p {
+    margin-left: 18rem;
+}
+    
+#quiz {
+    padding-left: 13rem;
+}
+
+#button {
+    margin-left: 16rem;
+    margin-top: 6rem;
+    padding: 19px 68px;
+}
