@@ -24,7 +24,7 @@ function check() {
     if(q9=="Because it represented freedom and strenght of America.") {c++}
     if(q10=="2") {c++}
 
-    document.write("You are done, Congradulations!");
+    /*document.write("You are done, Congradulations!");*/
 
     result.textContent='$(c)';
  

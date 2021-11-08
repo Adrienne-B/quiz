@@ -11,6 +11,7 @@ function check() {
     var Q8=document.quiz.question8.value;
     var Q9=document.quiz.question9.value;
     var Q10=document.quiz.question10.value;
+
     var result=document.getElementById('result');
     var quiz=document.getElementById("quiz");
 
@@ -25,10 +26,15 @@ function check() {
     if (Q9=="Because it represented freedom and strenght of America.") {c++}
     if (Q10=="2") {c++}
 
-    document.write("You are done, Congradulations!");
-
+ 
+   //document.write("You are done, Congradulations!");
 
     quiz.style.display="none";
-    result.textContent=`$(c)`;
+
+    if (c<=6) {
+        result.textContent=`Your result is ${c}.  It is below average. Please try again.`
+    } else {
+        result.textContent=`You did great! Your result is ${c} You know your American History!`
+    }
  
 }
