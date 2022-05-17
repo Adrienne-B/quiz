@@ -28,6 +28,6 @@ function check() {
     if (c<=6) {
         result.textContent=`Your result is ${c}.  It is below average. Please try again.`
     } else {
-        result.textContent=`You did great! Your result is ${c} You know your American History!`
+        result.textContent=`You did great! Your result is ${c} out of 10. You know your American History!`
     }
 }
